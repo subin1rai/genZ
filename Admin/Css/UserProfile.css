@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+#form3 {
+    margin-left: 250px; /* Adjust spacing between forms */
+    margin-top: -20px;
+    height: 270px;
+    position: relative;
+    
+  
+
+}
+
+form {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    top: 50px;
+    position: relative;
+    width: 620px;
+   
+    left: 110px;
+    background-color: white;
+    border: 1px solid white;
+    
+    
+}
+label[for="product-name"] {
+    /* Add your CSS styles here */
+    font-size: 16px; /* Example font size */
+    position: relative;
+    font-weight: bold; /* Example font weight */
+    color: #333; /* Example text color */
+    left: 3%;
+    top: 10px;
+    font-family: "poppins-regular",Helvetica;
+    font-weight: bold;
+    /* Add any additional styles as needed */
+}
+
+label[for="Email"] {
+    /* Add your CSS styles here */
+    font-size: 16px; /* Example font size */
+    position: relative;
+    font-weight: bold; /* Example font weight */
+    color: #333; /* Example text color */
+    right: 520px;
+    top: 65px;
+    font-family: "poppins-regular",Helvetica;
+    font-weight: normal;
+    font-weight: bold;
+    /* Add any additional styles as needed */
+}
+label[for="Address"] {
+    /* Add your CSS styles here */
+    font-size: 16px; /* Example font size */
+    position: relative;
+    font-weight: bold; /* Example font weight */
+    color: #333; /* Example text color */
+    right: 440px;
+    top: 65px;
+    font-weight: bold;
+    font-family: "poppins-regular",Helvetica;
+    /* Add any additional styles as needed */
+}
+
+
+
+
+
+
+
+input[type="text"]#products-name {
+    width: 70%;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    left: 33px;
+    font-weight: bold;
+    top: 10px;
+    font-family: "poppins-regular", Helvetica;
+    background-color: #f3f3f3;
+    font-size: 18px;
+}
+
+input[type="text"]#Quatext {
+    width: 70%;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    left: 115px;
+    top: 10px;
+    font-weight: bold;
+    font-family: "poppins-regular", Helvetica;
+    background-color: #f3f3f3;
+    font-size: 18px;
+}
+
+input[type="text"]#Addtext{
+    width: 70%;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    left: 115px;
+    top: 10px;
+    font-weight: bold;
+    font-family: "poppins-regular", Helvetica;
+    background-color: #f3f3f3;
+    font-size: 18px;
+
+}
+
+.Edit button{
+    position: relative;
+    left: 480px;
+    top: 45px;
+    width: 110px;
+    height: 35px;
+    font-family: "poppins-regular", Helvetica;
+    background-color:blue;
+    color: white;
+    border: 1px solid palevioletred;
+    font-size: 16px;
+    
+    
+}
+
+.profile-heading{
+    margin-left: 110px; /* Adjust the left margin to move elements to the right */
+    margin-top: 40px;
+    position: relative;
+}
+.profile-details {
+    margin-left: 70px;
+    margin-top: 40px;
+    position: relative;
+    font-size: 24px;
+}
+
+.Arrow {
+    position: absolute; /* Position the div */
+    top: 42px; /* Adjust as needed */
+    left: 60px; /* Adjust as needed */
+}

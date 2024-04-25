@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid black; /* Add this line for the outer border */
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0; /* Remove padding */
+    border: 1px solid black;
+    background-color: white;
+    border-top: none; /* Add this line to remove the border from the top */
+}
+
+
+.admin-text {
+    font-size: 20px; /* Adjust the font size as needed */
+    margin: 0; /* Reset margin to ensure consistent spacing */
+    padding: 0; /* Reset padding */
+    right: 140px;
+    font-family: "poppins-SemiBold", Helvetica; /* Make sure to add quotes around font family names with spaces */
+    position: relative;
+    top: -25px;
+    font-weight: bold; /* Make the text bold */
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img {
+    width: 69px;
+    height: 60px;
+    left: 65px;
+    position: relative;
+}
+
+.logo p {
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+    left: 80px;
+    position: relative;
+    font-family: "poppins-regular", Helvetica;
+    font-weight: bold; /* Make the text bold */
+}
+.add-product-btn {
+    position: fixed;
+    top: 20%;
+    left: 85%;
+    height: 32px;
+    transform: translate(-50%, -50%);
+    background-color: #8830f7;
+    font-family: "poppins-regular", Helvetica;
+    color: white;
+    border: 1px solid #8830f7;
+}
+.product-title{
+    position: fixed;
+    top: 135px;
+    right: 80%;
+    font-family: "poppins-regular", Helvetica;
+    font-size: 19px;
+
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    position: relative;
+    left: -70px;
+}
+
+
+
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    top: 115px;
+    left: 90px;
+    position: relative;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+    font-family: "poppins-regular",Helvetica;
+}
+
+h3 {
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    left: 40px;
+    top: 540px;
+    font-family: "poppins-regular",Helvetica;
+    font-size: 17px;
+    font-weight: normal;
+
+}
+
+.iconc{
+    width: 20px; /* Adjust the width of the icon as needed */
+    height: auto;
+    position: relative;
+    top: 4px;
+    margin-left: -114px; /* Add margin to the left of the icon */
+}
+
+.iconp{
+    width: 20px; /* Adjust the width of the icon as needed */
+    height: auto;
+    position: relative;
+    top: 4px;
+    margin-left: -92px; /* Add margin to the left of the icon */
+}
+
+.icono{
+    width: 20px; /* Adjust the width of the icon as needed */
+    height: auto;
+    position: relative;
+    top: 4px;
+    margin-left: -87px; /* Add margin to the left of the icon */
+}
+
+.iconm{
+    width: 20px; /* Adjust the width of the icon as needed */
+    height: auto;
+    position: relative;
+    top: 4px;
+    margin-left: -101px; /* Add margin to the left of the icon */
+}
+
+
+.rectangle {
+    margin-top: 55px; /* Adjust the top margin as needed */
+    padding: 20px; /* Add padding around the content */
+    background-color: white; /* Set background color */
+    border: 1px solid #ccc; /* Add a border */
+     /* Add border radius for rounded corners */
+    height: 340px; /* Fixed height of 100px */
+    width: 1100px; /* Fixed width of 200px */
+    position: relative; /* Keep the position as relative */
+    left: 215px;
+}
+
+.table1{
+    margin-top: -20px; 
+    padding: 20px; 
+    background-color:white; 
+    border: 1px solid #ccc;
+
+    
+    width: 1142px;
+    position: relative;
+    left: -21px;
+    border: 1px solid black;
+}
+.table2{
+    margin-top: -20px; /* Adjust the top margin as needed */
+    padding: 20px; /* Add padding around the content */
+    background-color:white; /* Set background color */
+    border: 1px solid #ccc; /* Add a border */
+
+    height: 20px; /* Fixed height of 100px */
+    width: 1142px; /* Fixed width of 200px */
+    position: relative; /* Keep the position as relative */
+    left: -21px;
+    border: 1px solid black;
+}
+
+.table1 td {
+    font-size: 12px; /* Adjust the font size as needed */
+    
+    vertical-align: top; /* Adjust the vertical alignment */
+    position:relative; /* Keep the position as relative if necessary */
+    font-family: "poppins-regular",Helvetica;
+    font-weight: bold;
+}
+
+.qun{
+    position: relative;
+    left: 100px;
+}
+.Total-price{
+    position: relative;
+    left: 210px;
+}
+
+.Pending button{
+    position: relative;
+    left: 175px;
+    position: relative;
+    font-family: "poppins-regular", Helvetica;
+    border-radius: 5px;
+    color: #40c057;
+    padding: 2px 7px; /* Maintain padding for button size */
+    font-size: 16px; /* Increase font size */
+    border: 1px solid #f0f0f0; /* Set border color */
+    background-color: #dfeee5;
+}
+
+.Order-date{
+    position: relative;
+    left: 97px;
+}
+
+.Deletee button{
+    position: relative;
+    left: 43px;
+    font-family: "poppins-regular", Helvetica;
+    border-radius: 5px;
+    padding: 4px 10px;
+    border: 1px solid #f0f0f0; 
+    background-color: #ffcccc;
+    color: #fa5252;
+}
+a {
+    text-decoration: none;
+    color:black
+}
