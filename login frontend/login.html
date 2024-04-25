@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+    <link rel="stylesheet" href="Register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+</head>
+<body>
+    <div class="container">
+        <div class="right-side">
+            <div class="purple-shapes">
+                <div class="shape shape1"></div>
+                <div class="shape shape2"></div>
+               
+            </div>
+            <div class="shape shape3"></div>
+            
+            <img src="assets/img.png" alt="Sun Rays Image"> <!-- Your image here -->
+        </div>
+        <div class="left-side">
+            <div class="form-container">
+                <h2>Welcome Back</h2>
+                <h3>Login to your account</h3>
+                <input type="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <div class="additional-options">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember Me</label>
+                    </div>
+                    <div class="forgot-password">
+                        <a href="forgot_password.html">Forgot password?</a>
+                    </div>
+                </div>
+                <button onclick="login()">Login</button>
+                <p>Don't have an account? <a href="#">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
