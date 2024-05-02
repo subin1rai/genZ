@@ -1,0 +1,194 @@
+body {
+    font-family: "poppins-regular", Helvetica;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+}
+title{
+    color: #333;
+}
+
+.container {
+    position: relative;
+    width: 750px;
+    margin: 50px auto;
+    border: 1px solid #ede4ff;
+    padding: 30px;
+    border-radius: 25px;
+    height: 500px;
+    background-color: #ede4ff;
+    top: -90px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: "poppins-regular", Helvetica;
+}
+
+h2{
+    margin-left: 650px;
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+    font-family: "poppins-regular", Helvetica;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    top: -10px;
+    color: #333;
+    font-family: "poppins-regular", Helvetica;
+    position: relative;
+    font-size: 22px;
+}
+
+img{
+    position: relative;
+    left: 480px;
+    top: -90px;
+    
+}
+p{
+    position: relative;
+    width:350px;
+    height:80px;
+    font-size: 12px;
+    text-align: justify;
+    font-family: "poppins-regular", Helvetica;
+    left: 650px;
+}
+
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label[for="name"] {
+position: relative;
+left: 65px;
+position: relative;
+font-weight: bold; /* Example font weight */
+color: #333; 
+font-family: "poppins-regular",Helvetica;
+font-weight: bold;
+}
+
+input[type="text"]#name {
+    position: relative;
+    width: 320px;
+    left: 40px;
+    border-radius: 7px;
+    border-color: white;
+    font-family: "poppins-regular", Helvetica;
+}
+
+label[for="email"] {
+    position: relative;
+    left: 400px;
+    position: relative;
+    font-weight: bold; /* Example font weight */
+    color: #333; 
+    font-family: "poppins-regular",Helvetica;
+    top: -75px;
+    }
+
+    input[type="email"]#email{
+        position: relative;
+        width: 320px;
+        left: 380px;
+        top: -75px;
+        border-radius: 7px;
+        font-family: "poppins-regular",Helvetica;
+        border-color: white;
+    }
+
+    label[for="phone"] {
+        position: relative;
+        left: 65px;
+        top:-80px;
+        border-radius: 7px;
+        font-weight: bold;
+        color:black;
+        font-family: "poppins-regular",Helvetica;
+    }
+
+    input[type="tel"]#phone{
+        position: relative;
+        width: 660px;
+        left: 40px;
+        top: -75px;
+        height: 40px;
+        
+        border-radius: 7px;
+        font-family: "poppins-regular",Helvetica;
+        border-color: white;
+    }
+
+    label[for="message"] {
+        position: relative;
+        left: 65px;
+        top: -70px;
+        color:black;
+        font-weight: bold;
+        font-family: "poppins-regular",Helvetica;
+    }
+
+    input[type="message"]#message{
+        position: relative;
+        width: 660px;
+        left: 40px;
+        border-radius: 7px;
+        top: -65px;
+        height: 180px;
+        font-family: "poppins-regular",Helvetica;
+        border-color: white;
+    }
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #ff5733;
+    position: relative;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    top: -65px;
+    left: 40px;
+    border-radius: 38px;
+    width: 110px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+.au{
+    position: relative;
+    left: 700px;
+    top: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
