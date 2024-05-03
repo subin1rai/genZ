@@ -1,0 +1,187 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+.cart {
+    width: 30px;
+    height: 100px;
+    position: relative;
+    font-size: 24px; 
+    font-weight: bold; 
+    right: -100px;
+    font-family: "poppins-regular",Helvetica;
+    top: 15px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    top: 70px;
+    margin-left: 100px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Set shadow color with rgba() */
+}
+
+
+
+.rectangle img {
+    position: absolute;
+    top: 15%; 
+    left: 5%; 
+    width: 15%; 
+    height: 60%; 
+}
+
+
+
+    
+
+
+.option {
+    position: absolute; 
+    margin-top: 10px; 
+    height: 20;
+    width: 20;
+}
+
+h2 {
+        position: absolute;
+        top: 25px;
+        left: 165px;
+        width: 30%;
+        color: #000000;
+        font-size: 17px;
+        font-family: "poppins-regular",Helvetica;
+        font-weight: normal;
+       
+    }
+    
+
+
+h3 {
+    margin-left: 165px;
+    position: relative; /* Required for top property to work */
+    top: 70px; /* Adjust as needed to move the element down */
+    color: #FF5733;
+    font-family: "poppins-regular",Helvetica;
+    font-size: 15px;
+
+}
+
+
+
+h4{
+    margin-left: 450px;
+    position: relative;
+    top: -95px;
+    font-family: "poppins-regular",Helvetica;
+    
+}
+
+p{
+    position: relative;
+    top: 60px;
+    width: 30%;
+    height: 20px;
+    color: black;
+    left: 165px;
+    font-family: "poppins-regular",Helvetica;
+    font-size: 12.5px;
+}
+
+
+
+.quantity-input {
+    margin-left: 650px;
+    width: 30px;
+    height: 25px;
+    position: relative;
+    left: -185px;
+    top: -100px;
+    text-align: center;
+    font-family: "poppins-regular",Helvetica;
+    
+}
+
+.remove-button {
+    position: relative;
+    left: 630px;
+    top: -38px;
+    background: #BBADAB;
+    border-radius: 5px;
+    color: white;
+    font-family: "poppins-regular", Helvetica;
+    padding: 8px 27px;
+    text-align: center; /* Center-align the text */
+    border: 2px solid #BBADAB; /* Set border color same as background */
+}
+
+
+
+.buy-button {
+    position: relative;
+    top: -110px;
+    left: 630px;
+    background: #FF5733;
+    border-radius: 5px;
+    color: white;
+    font-family: "poppins-regular", Helvetica;
+    padding: 8px 25px; /* Adjust padding to make button bigger */
+    border: 2px solid #FF5733; /* Set border color same as background */
+}
+
+
+
+
+
+.rectangle1 {
+    position: absolute;
+    width: 30%;
+    height: 25%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    top: 70px;
+    margin-left: 900px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Set shadow color with rgba() */
+}
+
+
+.total-amount{
+    position: relative;
+    top: 30px;
+    left: 35px;
+    color:  #B7B7B7;
+    font-family: "poppins-regular",Helvetica;
+    font-size: 20px;
+    display: inline-block;
+    width: max-content;
+}
+.amount {
+    position: relative;
+    top: 10px;
+    width: 150px; /* Adjust the width to make the amount text longer */
+    left: 330px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "poppins-regular",Helvetica;
+    font-size: 20px;
+}
+
+.buybutton {
+    position: relative;
+    width: 240px;
+    height: 45px;
+    left: 125px;
+    top: 55px;
+    border-radius: 10px;
+    background: #FF5733;
+    font-family: "poppins-regular", Helvetica;
+    color: white;
+    border: 2px solid transparent; /* Set border color to transparent */
+}
+
