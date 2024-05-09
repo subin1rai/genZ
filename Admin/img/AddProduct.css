@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid black; /* Add this line for the outer border */
+}
+
+
+
+.admin-text {
+    font-size: 20px; /* Adjust the font size as needed */
+    margin: 0; /* Reset margin to ensure consistent spacing */
+    padding: 0; /* Reset padding */
+    right: 140px;
+    font-family: "poppins-SemiBold", Helvetica; /* Make sure to add quotes around font family names with spaces */
+    position: relative;
+    top: -25px;
+    font-weight: bold; /* Make the text bold */
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img {
+    width: 69px;
+    height: 60px;
+    left: 65px;
+    position: relative;
+}
+
+.logo p {
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+    left: 80px;
+    position: relative;
+    font-family: "poppins-regular", Helvetica;
+    font-weight: bold; /* Make the text bold */
+}
+
+.product-title{
+    position: relative;
+    top: 135px;
+    right: 80%;
+    font-family: "poppins-regular", Helvetica;
+    font-size: 19px;
+
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    position: relative;
+    left: -70px;
+}
+
+
+
+.add-product-section {
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.add-product-text {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+    left: 200px;
+    /* You can add more styling properties as needed */
+}
+
+form{
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    top: 200px;
+    position: relative;
+    width: 580px;
+    height: 270px;
+    left: 110px;
+    background-color: white;
+    border: 1px solid white;
+    top:190px;
+    
+    
+}
+
+#form2 {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    top: -270px;
+    position: relative;
+    width: 580px;
+    height: 270px;
+    left: 640px;
+    background-color: white;
+    border: 1px solid white;
+    
+}
+
+#form3 {
+    margin-left: 0px; /* Adjust spacing between forms */
+   
+    height: 120px;
+    position: relative;
+   
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    width: 580px;
+    height: 170px;
+    left: -10px;
+    background-color: white;
+    border: 1px solid white;
+    top: -240px;
+    
+    
+
+}
+
+
+#form4 {
+    margin-left: 0px; /* Adjust spacing between forms */
+   
+    height: 70px;
+    position: relative;
+   
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    width: 580px;
+    
+    left: 620px;
+    background-color: white;
+    border: 1px solid white;
+    top: -400px;
+  
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "poppins-regular",Helvetica;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label[for="product-name"] {
+    /* Add your CSS styles here */
+    font-size: 16px; /* Example font size */
+    position: relative;
+    font-weight: bold; /* Example font weight */
+    color: #333; /* Example text color */
+    left: 3%;
+    font-family: "poppins-regular",Helvetica;
+    /* Add any additional styles as needed */
+}
+label[for="product-description"] {
+    /* Add your CSS styles here */
+    font-size: 16px; /* Example font size */
+    position: relative;
+    font-weight: bold; /* Example font weight */
+    color: #333; /* Example text color */
+    left: 3%;
+    font-family: "poppins-regular",Helvetica;
+    /* Add any additional styles as needed */
+}
+
+
+
+input[type="text"]#products-name {
+    width: 90%;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    left: 17px;
+}
+
+input[type="text"]#product-description {
+    width: 90%;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    left: 17px;
+    height: 130px;
+}
+
+input[type="text"]#products-image {
+    width: 90%;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 17px;
+    height: 180px;
+    left: 170px;
+}
+
+.Delete button{
+    position: relative;
+    left: 110px;
+    top: 440px;
+    width: 150px;
+    height: 30px;
+    background-color:  #8830f7;
+    color: white;
+    border: 1px solid #8830f7;
+    font-family: "poppins-regular",Helvetica;
+    font-size: 16px;
+
+}
+.Add-Pro button{
+    position: relative;
+    background-color:  #f3f3f3;
+    left: 180px;
+    
+    border: 1px solid #f3f3f3;
+    font-family: "poppins-regular",Helvetica;
+    font-size: 15px;
+    font-weight: bold;
+    top: -180px;
+
+}
+.Arrow{
+    position: relative;
+    top: -207px;
+    left: 140px;
+    width: 10px;
+}
